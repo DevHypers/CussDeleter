@@ -1,6 +1,6 @@
-import time, asyncio, discord
+import os, asyncio, discord
 
-token = "NzgzOTU5OTgwMjYwMDY1MzIw.X8iVoA.QVwz5wk9cpsYm-yM-r1uuLRMX2E"
+token = os.environ["TOKEN"]
 bot = discord.Client()
 
 cusses = []
