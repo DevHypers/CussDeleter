@@ -38,7 +38,7 @@ async def on_message(message):
     if message.author == bot.user:
         return
 
-    if not message.channel.id == 771926827651563520:
+    if not message.channel.id == 783942644379680808 or message.channel.id == 783942854815907840 or message.channel.id == 783942923507073044:
         return
 
     for i in cusses:
